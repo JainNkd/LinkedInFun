@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B9701B41A270E4500143109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701B31A270E4500143109 /* main.m */; };
+		8B9701B71A270E4500143109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701B61A270E4500143109 /* AppDelegate.m */; };
+		8B9701BA1A270E4500143109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701B91A270E4500143109 /* ViewController.m */; };
+		8B9701BD1A270E4500143109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9701BB1A270E4500143109 /* Main.storyboard */; };
+		8B9701BF1A270E4500143109 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9701BE1A270E4500143109 /* Images.xcassets */; };
+		8B9701C21A270E4500143109 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B9701C01A270E4500143109 /* LaunchScreen.xib */; };
+		8B9701CE1A270E4500143109 /* LinkedInFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701CD1A270E4500143109 /* LinkedInFunTests.m */; };
+		8B9701E31A270EE300143109 /* LIALinkedInApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701D91A270EE300143109 /* LIALinkedInApplication.m */; };
+		8B9701E41A270EE300143109 /* LIALinkedInAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701DB1A270EE300143109 /* LIALinkedInAuthorizationViewController.m */; };
+		8B9701E51A270EE300143109 /* LIALinkedInHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701DD1A270EE300143109 /* LIALinkedInHttpClient.m */; };
+		8B9701E61A270EE300143109 /* NSString+LIAEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701DF1A270EE300143109 /* NSString+LIAEncode.m */; };
+		8B9701E71A270EE300143109 /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9701E11A270EE300143109 /* 01-refresh.png */; };
+		8B9701E81A270EE300143109 /* 01-refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9701E21A270EE300143109 /* 01-refresh@2x.png */; };
+		8B9701FD1A27112D00143109 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701EB1A27112D00143109 /* AFHTTPRequestOperation.m */; };
+		8B9701FE1A27112D00143109 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701ED1A27112D00143109 /* AFHTTPRequestOperationManager.m */; };
+		8B9701FF1A27112D00143109 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701EF1A27112D00143109 /* AFHTTPSessionManager.m */; };
+		8B9702001A27112D00143109 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701F21A27112D00143109 /* AFNetworkReachabilityManager.m */; };
+		8B9702011A27112D00143109 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701F41A27112D00143109 /* AFSecurityPolicy.m */; };
+		8B9702021A27112D00143109 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701F61A27112D00143109 /* AFURLConnectionOperation.m */; };
+		8B9702031A27112D00143109 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701F81A27112D00143109 /* AFURLRequestSerialization.m */; };
+		8B9702041A27112D00143109 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701FA1A27112D00143109 /* AFURLResponseSerialization.m */; };
+		8B9702051A27112D00143109 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9701FC1A27112D00143109 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B9701C81A270E4500143109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B9701A61A270E4500143109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9701AD1A270E4500143109;
+			remoteInfo = LinkedInFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B9701AE1A270E4500143109 /* LinkedInFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9701B21A270E4500143109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9701B31A270E4500143109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B9701B51A270E4500143109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B9701B61A270E4500143109 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B9701B81A270E4500143109 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B9701B91A270E4500143109 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B9701BC1A270E4500143109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B9701BE1A270E4500143109 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B9701C11A270E4500143109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B9701C71A270E4500143109 /* LinkedInFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedInFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9701CC1A270E4500143109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9701CD1A270E4500143109 /* LinkedInFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedInFunTests.m; sourceTree = "<group>"; };
+		8B9701D81A270EE300143109 /* LIALinkedInApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIALinkedInApplication.h; sourceTree = "<group>"; };
+		8B9701D91A270EE300143109 /* LIALinkedInApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIALinkedInApplication.m; sourceTree = "<group>"; };
+		8B9701DA1A270EE300143109 /* LIALinkedInAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIALinkedInAuthorizationViewController.h; sourceTree = "<group>"; };
+		8B9701DB1A270EE300143109 /* LIALinkedInAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIALinkedInAuthorizationViewController.m; sourceTree = "<group>"; };
+		8B9701DC1A270EE300143109 /* LIALinkedInHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIALinkedInHttpClient.h; sourceTree = "<group>"; };
+		8B9701DD1A270EE300143109 /* LIALinkedInHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIALinkedInHttpClient.m; sourceTree = "<group>"; };
+		8B9701DE1A270EE300143109 /* NSString+LIAEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LIAEncode.h"; sourceTree = "<group>"; };
+		8B9701DF1A270EE300143109 /* NSString+LIAEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LIAEncode.m"; sourceTree = "<group>"; };
+		8B9701E11A270EE300143109 /* 01-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh.png"; sourceTree = "<group>"; };
+		8B9701E21A270EE300143109 /* 01-refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh@2x.png"; sourceTree = "<group>"; };
+		8B9701EA1A27112D00143109 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		8B9701EB1A27112D00143109 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		8B9701EC1A27112D00143109 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		8B9701ED1A27112D00143109 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		8B9701EE1A27112D00143109 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		8B9701EF1A27112D00143109 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		8B9701F01A27112D00143109 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		8B9701F11A27112D00143109 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		8B9701F21A27112D00143109 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		8B9701F31A27112D00143109 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		8B9701F41A27112D00143109 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		8B9701F51A27112D00143109 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		8B9701F61A27112D00143109 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		8B9701F71A27112D00143109 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		8B9701F81A27112D00143109 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		8B9701F91A27112D00143109 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		8B9701FA1A27112D00143109 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		8B9701FB1A27112D00143109 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		8B9701FC1A27112D00143109 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B9701AB1A270E4500143109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9701C41A270E4500143109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B9701A51A270E4500143109 = {
+			isa = PBXGroup;
+			children = (
+				8B9701B01A270E4500143109 /* LinkedInFun */,
+				8B9701CA1A270E4500143109 /* LinkedInFunTests */,
+				8B9701AF1A270E4500143109 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B9701AF1A270E4500143109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B9701AE1A270E4500143109 /* LinkedInFun.app */,
+				8B9701C71A270E4500143109 /* LinkedInFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B9701B01A270E4500143109 /* LinkedInFun */ = {
+			isa = PBXGroup;
+			children = (
+				8B9701E91A27112D00143109 /* AFNetworking */,
+				8B9701D71A270EE300143109 /* IOSLinkedInAPI */,
+				8B9701B51A270E4500143109 /* AppDelegate.h */,
+				8B9701B61A270E4500143109 /* AppDelegate.m */,
+				8B9701B81A270E4500143109 /* ViewController.h */,
+				8B9701B91A270E4500143109 /* ViewController.m */,
+				8B9701BB1A270E4500143109 /* Main.storyboard */,
+				8B9701BE1A270E4500143109 /* Images.xcassets */,
+				8B9701C01A270E4500143109 /* LaunchScreen.xib */,
+				8B9701B11A270E4500143109 /* Supporting Files */,
+			);
+			path = LinkedInFun;
+			sourceTree = "<group>";
+		};
+		8B9701B11A270E4500143109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B9701B21A270E4500143109 /* Info.plist */,
+				8B9701B31A270E4500143109 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B9701CA1A270E4500143109 /* LinkedInFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B9701CD1A270E4500143109 /* LinkedInFunTests.m */,
+				8B9701CB1A270E4500143109 /* Supporting Files */,
+			);
+			path = LinkedInFunTests;
+			sourceTree = "<group>";
+		};
+		8B9701CB1A270E4500143109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B9701CC1A270E4500143109 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B9701D71A270EE300143109 /* IOSLinkedInAPI */ = {
+			isa = PBXGroup;
+			children = (
+				8B9701D81A270EE300143109 /* LIALinkedInApplication.h */,
+				8B9701D91A270EE300143109 /* LIALinkedInApplication.m */,
+				8B9701DA1A270EE300143109 /* LIALinkedInAuthorizationViewController.h */,
+				8B9701DB1A270EE300143109 /* LIALinkedInAuthorizationViewController.m */,
+				8B9701DC1A270EE300143109 /* LIALinkedInHttpClient.h */,
+				8B9701DD1A270EE300143109 /* LIALinkedInHttpClient.m */,
+				8B9701DE1A270EE300143109 /* NSString+LIAEncode.h */,
+				8B9701DF1A270EE300143109 /* NSString+LIAEncode.m */,
+				8B9701E01A270EE300143109 /* Resources */,
+			);
+			path = IOSLinkedInAPI;
+			sourceTree = "<group>";
+		};
+		8B9701E01A270EE300143109 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B9701E11A270EE300143109 /* 01-refresh.png */,
+				8B9701E21A270EE300143109 /* 01-refresh@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B9701E91A27112D00143109 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8B9701EA1A27112D00143109 /* AFHTTPRequestOperation.h */,
+				8B9701EB1A27112D00143109 /* AFHTTPRequestOperation.m */,
+				8B9701EC1A27112D00143109 /* AFHTTPRequestOperationManager.h */,
+				8B9701ED1A27112D00143109 /* AFHTTPRequestOperationManager.m */,
+				8B9701EE1A27112D00143109 /* AFHTTPSessionManager.h */,
+				8B9701EF1A27112D00143109 /* AFHTTPSessionManager.m */,
+				8B9701F01A27112D00143109 /* AFNetworking.h */,
+				8B9701F11A27112D00143109 /* AFNetworkReachabilityManager.h */,
+				8B9701F21A27112D00143109 /* AFNetworkReachabilityManager.m */,
+				8B9701F31A27112D00143109 /* AFSecurityPolicy.h */,
+				8B9701F41A27112D00143109 /* AFSecurityPolicy.m */,
+				8B9701F51A27112D00143109 /* AFURLConnectionOperation.h */,
+				8B9701F61A27112D00143109 /* AFURLConnectionOperation.m */,
+				8B9701F71A27112D00143109 /* AFURLRequestSerialization.h */,
+				8B9701F81A27112D00143109 /* AFURLRequestSerialization.m */,
+				8B9701F91A27112D00143109 /* AFURLResponseSerialization.h */,
+				8B9701FA1A27112D00143109 /* AFURLResponseSerialization.m */,
+				8B9701FB1A27112D00143109 /* AFURLSessionManager.h */,
+				8B9701FC1A27112D00143109 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B9701AD1A270E4500143109 /* LinkedInFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9701D11A270E4500143109 /* Build configuration list for PBXNativeTarget "LinkedInFun" */;
+			buildPhases = (
+				8B9701AA1A270E4500143109 /* Sources */,
+				8B9701AB1A270E4500143109 /* Frameworks */,
+				8B9701AC1A270E4500143109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedInFun;
+			productName = LinkedInFun;
+			productReference = 8B9701AE1A270E4500143109 /* LinkedInFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B9701C61A270E4500143109 /* LinkedInFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9701D41A270E4500143109 /* Build configuration list for PBXNativeTarget "LinkedInFunTests" */;
+			buildPhases = (
+				8B9701C31A270E4500143109 /* Sources */,
+				8B9701C41A270E4500143109 /* Frameworks */,
+				8B9701C51A270E4500143109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B9701C91A270E4500143109 /* PBXTargetDependency */,
+			);
+			name = LinkedInFunTests;
+			productName = LinkedInFunTests;
+			productReference = 8B9701C71A270E4500143109 /* LinkedInFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B9701A61A270E4500143109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Naveen Kumar Dungarwal";
+				TargetAttributes = {
+					8B9701AD1A270E4500143109 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8B9701C61A270E4500143109 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8B9701AD1A270E4500143109;
+					};
+				};
+			};
+			buildConfigurationList = 8B9701A91A270E4500143109 /* Build configuration list for PBXProject "LinkedInFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B9701A51A270E4500143109;
+			productRefGroup = 8B9701AF1A270E4500143109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B9701AD1A270E4500143109 /* LinkedInFun */,
+				8B9701C61A270E4500143109 /* LinkedInFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B9701AC1A270E4500143109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9701BD1A270E4500143109 /* Main.storyboard in Resources */,
+				8B9701C21A270E4500143109 /* LaunchScreen.xib in Resources */,
+				8B9701E71A270EE300143109 /* 01-refresh.png in Resources */,
+				8B9701BF1A270E4500143109 /* Images.xcassets in Resources */,
+				8B9701E81A270EE300143109 /* 01-refresh@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9701C51A270E4500143109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B9701AA1A270E4500143109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9702021A27112D00143109 /* AFURLConnectionOperation.m in Sources */,
+				8B9701BA1A270E4500143109 /* ViewController.m in Sources */,
+				8B9701B71A270E4500143109 /* AppDelegate.m in Sources */,
+				8B9701E61A270EE300143109 /* NSString+LIAEncode.m in Sources */,
+				8B9702041A27112D00143109 /* AFURLResponseSerialization.m in Sources */,
+				8B9701B41A270E4500143109 /* main.m in Sources */,
+				8B9702031A27112D00143109 /* AFURLRequestSerialization.m in Sources */,
+				8B9702011A27112D00143109 /* AFSecurityPolicy.m in Sources */,
+				8B9701FD1A27112D00143109 /* AFHTTPRequestOperation.m in Sources */,
+				8B9702051A27112D00143109 /* AFURLSessionManager.m in Sources */,
+				8B9701E31A270EE300143109 /* LIALinkedInApplication.m in Sources */,
+				8B9701E41A270EE300143109 /* LIALinkedInAuthorizationViewController.m in Sources */,
+				8B9701FF1A27112D00143109 /* AFHTTPSessionManager.m in Sources */,
+				8B9701E51A270EE300143109 /* LIALinkedInHttpClient.m in Sources */,
+				8B9702001A27112D00143109 /* AFNetworkReachabilityManager.m in Sources */,
+				8B9701FE1A27112D00143109 /* AFHTTPRequestOperationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B9701C31A270E4500143109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9701CE1A270E4500143109 /* LinkedInFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B9701C91A270E4500143109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B9701AD1A270E4500143109 /* LinkedInFun */;
+			targetProxy = 8B9701C81A270E4500143109 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B9701BB1A270E4500143109 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9701BC1A270E4500143109 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B9701C01A270E4500143109 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9701C11A270E4500143109 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B9701CF1A270E4500143109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B9701D01A270E4500143109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B9701D21A270E4500143109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LinkedInFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B9701D31A270E4500143109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LinkedInFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B9701D51A270E4500143109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LinkedInFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedInFun.app/LinkedInFun";
+			};
+			name = Debug;
+		};
+		8B9701D61A270E4500143109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LinkedInFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedInFun.app/LinkedInFun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B9701A91A270E4500143109 /* Build configuration list for PBXProject "LinkedInFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9701CF1A270E4500143109 /* Debug */,
+				8B9701D01A270E4500143109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9701D11A270E4500143109 /* Build configuration list for PBXNativeTarget "LinkedInFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9701D21A270E4500143109 /* Debug */,
+				8B9701D31A270E4500143109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B9701D41A270E4500143109 /* Build configuration list for PBXNativeTarget "LinkedInFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9701D51A270E4500143109 /* Debug */,
+				8B9701D61A270E4500143109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B9701A61A270E4500143109 /* Project object */;
+}
